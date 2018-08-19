@@ -18,3 +18,4 @@ if date[0] == 2 and isLeap(date[2]) and date[1] between 1 and 29
 elif date[1] between 1 and day.select(date[0] - 1)
     check += 1
 result = "valid" if check == 3 else "not valid"
+print result
