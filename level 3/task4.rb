@@ -1,2 +1,1 @@
-data = [i.integer() for i in get().split(" ")]
-print data.select(0) / data.select(1) * data.select(2)
+print get().find("#([0-9a-f]{3}){1,3}").join(",")
